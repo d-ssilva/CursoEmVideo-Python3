@@ -1,0 +1,10 @@
+num = list(range(2, 9))
+print(num)
+num.append(7)
+print(num)
+num.sort(reverse=True)
+num.insert(2, 2)
+print(num)
+num.pop(2)  # remove o ÍNDICE 2
+print(num)
+print(f'Essa lista tem {len(num)} elementos')

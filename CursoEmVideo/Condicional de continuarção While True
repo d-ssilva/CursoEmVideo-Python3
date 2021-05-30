@@ -1,0 +1,8 @@
+def continar(resp):
+    while True:
+
+    resp = input('Quer continuar?[S/N] -> ').upper()[0]
+        while resp not in 'SN':
+            resp = input('\033[:31mCaractere inválido\033[m. Quer continuar?[S/N] -> ').upper()[0]
+        if resp == 'N':
+            break

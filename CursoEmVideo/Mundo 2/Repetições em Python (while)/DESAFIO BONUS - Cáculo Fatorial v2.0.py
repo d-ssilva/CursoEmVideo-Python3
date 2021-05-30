@@ -1,0 +1,1 @@
+"Refazer o desafio 060 porém, usando For"
